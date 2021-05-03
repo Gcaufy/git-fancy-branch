@@ -1,7 +1,6 @@
 # git-fancy-branch
 
-[中文](./README_ZH.md)
-
+[English](./README.md)
 
 如果你满足以下条件，那么大概率你也需要 `git-fancy-branch`:
 
