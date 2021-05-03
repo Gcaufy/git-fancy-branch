@@ -4,6 +4,9 @@
 # Quick switch/delete local git branches
 
 
+VERSION=0.0.1
+
+
 ## fzf check, if not installed. exist
 if [ -z "$FZF_COMMAND" ]; then FZF_COMMAND="fzf"; fi
 
@@ -113,11 +116,11 @@ function parse_commandline() {
 			fi
 			;;
 		-v | --version)
-			printf '%s %s\n\n%s\n' "" "1.0.0" ''
+			printf '%s %s\n\n%s\n' "" "$VERSION" ''
 			exit 0
 			;;
 		-v*)
-			printf '%s %s\n\n%s\n' "" "1.0.0" ''
+			printf '%s %s\n\n%s\n' "" "$VERSION" ''
 			exit 0
 			;;
 		-h | --help)

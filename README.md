@@ -22,5 +22,18 @@
 
 ## 安装
 
+可直接拷贝脚本源码至可执行目录
+
+```
+sudo wget https://raw.githubusercontent.com/Gcaufy/git-fancy-branch/main/git-br -O /usr/local/bin/git-br && sudo chmod +x /usr/local/bin/git-br
+```
+
+也可以使用 `npm` 安装：
+
+```
+npm install git-fancy-branch -g
+```
+
+
 ## License
 MIT

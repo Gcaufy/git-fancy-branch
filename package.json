@@ -1,0 +1,42 @@
+{
+  "name": "git-fancy-branch",
+  "version": "0.0.1",
+  "description": "Git fancy branch command, quickly switch/delete branches",
+  "main": "git-br",
+  "bin": {
+    "git-br": "git-br"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "./node_modules/.bin/verpub publish",
+    "release:dry": "./node_modules/.bin/verpub --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gcaufy/git-fancy-branch.git"
+  },
+  "keywords": [
+    "fzf",
+    "git",
+    "branch"
+  ],
+  "author": {
+    "name": "Gcaufy"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gcaufy/git-fancy-branch/issues"
+  },
+  "homepage": "https://github.com/Gcaufy/git-fancy-branch#readme",
+  "devDependencies": {
+    "verpub": "^0.1.4"
+  },
+  "readme": "README.md",
+  "_id": "git-fancy-branch@1.0.0",
+  "verpub": {
+    "publish": {
+      "client": "npm"
+    },
+    "tag": "{name}@{version}"
+  }
+}
