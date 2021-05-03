@@ -1,6 +1,6 @@
 {
   "name": "git-fancy-branch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Git fancy branch command, quickly switch/delete branches",
   "main": "git-br",
   "bin": {
@@ -32,11 +32,12 @@
     "verpub": "^0.1.4"
   },
   "readme": "README.md",
-  "_id": "git-fancy-branch@1.0.0",
+  "_id": "git-fancy-branch@0.0.2",
   "verpub": {
     "publish": {
       "client": "npm"
     },
     "tag": "{name}@{version}"
-  }
+  },
+  "_commitid": "ed0d150"
 }
