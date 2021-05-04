@@ -2,33 +2,31 @@
 
 [中文](./README_ZH.md)
 
+If you are also in the following situations, probably you also need `git-fancy-branch`:
 
-如果你满足以下条件，那么大概率你也需要 `git-fancy-branch`:
+1. Prefer GIT command line rather than any GUI tools.
+2. Always create new branches, and forget to delete them after branch merged.
+3. Always working and switching across different branches, and something forget the branch name recently worked with.
+4. Alway doing `git checkout`, and `TAB` for the target branches.
 
-1. 习惯用 Git 命令行而不是 GUI 工具。
-2. 经常创建新的分支，并且在合并后忘关闭导致本地分支泛滥。
-3. 经常来回切换分支，但有的时候忘记了之前是在哪个分支工作。
-4. 经常在做 `git checkout` 时，多次使用 `TAB` 键便于找到目标分支。
+## Features
 
-
-## 特性
-
-1. 分支列表以最近提交排序，方便快速定位到最近的工作分支。
-2. 使用 `fzf` 进行快速分支选择。
-3. 支持批量选择分支进行删除。
+1. List all branches which sorted by commit time.
+2. Using `fzf` to do fuzzy find across branches.
+3. Support multiple branches delete.
 
 ![image](https://user-images.githubusercontent.com/2182004/116886592-d924c880-ac5b-11eb-9890-cc37afeb9fe9.png)
 
 
-## 安装
+## Install
 
-可直接拷贝脚本源码至可执行目录
+You can simply copy the script code to your executable directory, or you can use the following command to do this:
 
 ```
 sudo wget https://raw.githubusercontent.com/Gcaufy/git-fancy-branch/main/git-br -O /usr/local/bin/git-br && sudo chmod +x /usr/local/bin/git-br
 ```
 
-也可以使用 `npm` 安装：
+You also can use `npm` to install it:
 
 ```
 npm install git-fancy-branch -g
