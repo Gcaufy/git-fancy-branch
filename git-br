@@ -57,7 +57,8 @@ function delete_branches() {
 	list_branches | \
 		$FZF_COMMAND --no-preview --no-sort --multi --no-select-1 --prompt="Use [tab] to pickup the branches you want to delete: " | \
 		awk '{print $1}' | \
-		grep -v '*'
+		grep -v '*' | \
+        xargs git branch -d
 }
 
 function die() {
